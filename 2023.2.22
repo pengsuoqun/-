@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>HTML5练习</title>
+</head>
+<body>
+<p>这是一个段落</p>
+<br>
+<p>这是一个段落</p>
+<br>
+<a href="http://www.runoob.com">这是一个链接</a>
+
+
+<hr><!-- 水平线 -->水平线
+<p>上面是段落与链接的html5知识
+<hr>
+<h1>一级标题</h1>
+<font size="5">这是5号字体</font>
+<p>一级内容</p>
+<h2>二级标题</h2>
+<front size="4">这是4号字体</front>
+<p>二级内容</p>
+<h3>三级标题</h3>
+<front size="3">这是三号字体</front>
+<p>三级内容</p>
+
+</body>
+</html>
