@@ -1,0 +1,25 @@
+ackage cn.ppdxzz;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * Description: SpringBoot入口类
+ * @Author: PeiChen JavaAnything
+ */
+@SpringBootApplication
+@RestController
+public class Application {
+    public static void main(String[] args) {
+        //启动SpringBoot应用，参数一：入口类类对象，参数二：main函数参数
+        SpringApplication.run(Application.class,args);
+    }
+
+    @GetMapping("/hello")
+    public String hello(@RequestParam(value = "name", defaultValue = "SpringBoot") String name) {
+        return String.format("Hello %s!", name);
+    }
+}
